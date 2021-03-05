@@ -4,7 +4,7 @@ import com.bibliotheque.biblio.Entities.Livre;
 
 import java.util.List;
 
-public interface ServiceBibliotheque {
+public interface IServiceBibliotheque {
 
     public Livre creerLivre(Livre livre);
 
