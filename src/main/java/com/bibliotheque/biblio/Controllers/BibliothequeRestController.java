@@ -35,7 +35,7 @@ public class BibliothequeRestController {
     }
 
     @DeleteMapping("/livre/{id}")
-    public String supprimerLivreParId(@PathVariable Long id){
+    public String supprimerLivreParI(@PathVariable Long id){
         return  this.service.supprimerLivreParId(id);
     }
 
